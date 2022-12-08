@@ -40,10 +40,6 @@ int [,] matrix = new int [4,4];
         matrix[i,j] = count++;
     }
 
-
-
-
-
 void PrintMatrix(int[,] matrix)
 {
 for(int i = 0;i<matrix.GetLength(0);i++)
